@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "note-pad",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
