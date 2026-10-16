@@ -1,49 +1,10 @@
-# <img width="32" alt="icon" src="https://github.com/user-attachments/assets/97be996c-9358-413e-9c94-7476f3555194" /> Notepad++ WebApp & Desktop App
+# <img width="32" alt="icon" src="https://github.com/user-attachments/assets/97be996c-9358-413e-9c94-7476f3555194" /> Webpad++ ( Notepad++ for Web )
 
-### Welcome to *Notepad++ WebApp*.
-<img width="1790" height="607" alt="AppAndBrowserSideBySide" src="https://github.com/user-attachments/assets/adec8a8c-0b62-4668-ae76-058ad02b5552" />
+This application is a fully client-side web application designed to meticulously replicate the look, feel, and functionality of the classic Notepad++ desktop software within a browser sandbox.\
+<a href="https://web-pad.github.io/"><br>Open Website</a>
 
-This application is a fully client-side web application designed to meticulously replicate the look, feel, and functionality of the classic Notepad++ desktop software within a browser sandbox. 
-
-While built primarily for the web, it also features a native desktop release for Windows, macOS, and Linux!
-<div align="center">
-  <a href="#"><img width="200" alt="dl" src="https://github.com/user-attachments/assets/5caa04e6-0e47-4eda-b173-f9aede5f480a" /></a>
-</div>
-<table>
-  <tr align="center">
-    <th colspan="2">Windows</th>
-    <th>macOS</th>
-    <th colspan="3">Linux</th>
-    <th>WebApp</th>
-  </tr>
-  
-  <tr align="center">
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Windows_Portable_Live.exe"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/IBCrdX3.png" width="50"><br>Portable (Live)</a><br><sub><i>70.4 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Windows_Setup_live.exe"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/zFtGyFn.png" width="50"><br>Setup (Live)</a><br><sub><i>63.9 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_MacOS_Live.dmg"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/BjfYSJx.png" width="50"><br>DMG (Live)</a><br><sub><i>103 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Linux_Live.rpm"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/su823x6.png" width="50"><br>RPM (Live)</a><br><sub><i>120 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Linux_Live.deb"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/iFiPHhe.png" width="50"><br>DEB (Live)</a><br><sub><i>90.1 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Linux_Live.AppImage"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/KB1fVkn.png" width="50"><br>AppImage (Live)</a><br><sub><i>117 MB</i></sub></td>
-    <td><a href="https://notepad-plus-plus.ywa.app/"><img src="https://api.iconify.design/lucide:globe.svg?color=teal" width="50"><br>Open Website</a><br><sub><i>Online</i></sub></td>
-  </tr>
-
-  <tr align="center">
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Windows_.Portable_Offline.exe"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/gxpyQR5.png" width="50"><br>Portable (Offline)</a><br><sub><i>70.4 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Windows_Setup_offline.exe"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/6cuLncX.png" width="50"><br>Setup (Offline)</a><br><sub><i>63.9 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_MacOS_Offline.dmg"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/SLztQeN.png" width="50"><br>DMG (Offline)</a><br><sub><i>103 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Linux_Offline.rpm"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/u816TJo.png" width="50"><br>RPM (Offline)</a><br><sub><i>120 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Linux_Offline.deb"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/ysp8YQh.png" width="50"><br>DEB (Offline)</a><br><sub><i>90.1 MB</i></sub></td>
-    <td><a href="https://github.com/rmellis/NotepadPlusPlus-WebClone/releases/download/Notepad%2B%2BV11_CrossPlatfoem-WebApp/Notepad++_Linux_Offline.AppImage"><img src="https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/ZvOkb2J.png" width="50"><br>AppImage (Offline)</a><br><sub><i>117 MB</i></sub></td>
-    <td></td> 
-  </tr>
-
-  <tr align="center">
-    <td colspan="7">
-      <br><b>🌐 Embed this WebApp on your own site:</b><br>
-      <code>&lt;iframe src="https://notepad-plus-plus.ywa.app/" width="100%" height="600px" style="border:none;"&gt;&lt;/iframe&gt;</code><br><br>
-    </td>
-  </tr>
-</table>
+<b>🌐 Embed this WebApp on your own site:</b><br>
+<code>&lt;iframe src="https://web-pad.github.io/" width="100%" height="600px" style="border:none;"&gt;&lt;/iframe&gt;</code><br>
 
 ## 🌐 Web Application Mechanics
 
@@ -166,64 +127,12 @@ For ultimate focus, these view modes strip away the Menu Bar, Toolbar, Tab Bar, 
 
 ### 7. The Educational "Mock" Engine
 
-Because this is a web-browser-based clone, certain native C++ desktop features are physically impossible to execute (e.g., reading local system directories, parsing C++ DLL plugins, or utilizing OS-level threading).
+Because this is a web-browser-based app, certain native C++ desktop features are physically impossible to execute (e.g., reading local system directories, parsing C++ DLL plugins, or utilizing OS-level threading).
 
 Rather than clicking a button and having nothing happen, the application features an **Explanation Routing Engine**. When you click an impossible feature (like *Plugins Admin*, *Folder as Workspace*, or *Code Folding*), the engine analyzes the request and spawns a window explaining the exact technical reason why a browser sandbox prevents that specific feature, advising the user to download the native Windows application.
 
-<img width="448" height="240" alt="image" src="https://github.com/user-attachments/assets/08e486a2-29ff-4e26-b243-c498b76b175f" />
-
 ---
 
-## 💻 Native Desktop Application
-
-<img width="2900" height="1222" alt="hero3" src="https://github.com/user-attachments/assets/e967d478-822b-4c3f-a4ea-2538097a7685" />
-
-We haven't just packaged a website; we’ve built a native bridge that integrates with your operating system's file manager, context menus, and native UI conventions.
-
-### 📦 Downloads
-We offer two flavors for every operating system:
-* 🌐 **Live Editions:** Lightweight binaries that act as a native shell and loads the app directly from GitHub Pages. They require an internet connection but will **always have the latest features** without needing to re download the app.
-* 🛑 **Offline Editions:** Fully bundled. These contain all HTML/JS/CSS assets locally. They are larger in size but work without an internet connection.
-
-**🪟 Windows**
-<img width="759" height="472" alt="installer" src="https://github.com/user-attachments/assets/00a85563-9995-4168-b26c-3f6431d482fb" />
-* **Installers (Wizard-based):** Installs cleanly to your system, adds a shortcut to the Start Menu > Programs, and natively integrates an **"Open with Notepad++"** button to your Windows right-click context menu!
-* **Portables (Single-File SFX):** A completely portable, single `.exe` file with the normal app icon. Built using an optimized WinRAR SFX archive with "Store" compression for lightning-fast, silent startup. It quietly extracts to your Windows Temp folder, runs the app, and automatically cleans up its files the second you close it.
-
-**🍏 macOS (Intel / rosetta2)**
-<table>
-  <tr>
-    <td width="50%">
-      <img width="100%" alt="Screenshot 2026-02-25 at 21 17 14" src="https://github.com/user-attachments/assets/b14c98de-d196-4ebc-87be-565d83a6f4b1" />
-    </td>
-    <td width="50%" valign="top">
-      <ul>
-        <li>Packaged as a standard <code>.dmg</code> file featuring a custom Notepad++ green background and visual “Drag and Drop to Applications” instructions.</li>
-        <li>Automatically defaults to the <strong>macOS UI Theme</strong> (traffic light buttons) and strips the web-based menu, forwarding all menu commands directly to the <strong>native Apple Menu Bar</strong> at the top of your screen for a flawless Mac experience.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <p align="center"><em><img width="1143" height="122" alt="MacosMenu" src="https://github.com/user-attachments/assets/0b00b583-00d4-4a33-a158-64b865b21b2f" />That's right, i edited Notepad++ in Notepad++.</em></p>
-    </td>
-  </tr>
-</table>
-
-**🐧 Linux**
-<img width="885" height="667" alt="LinuxWindow" src="https://github.com/user-attachments/assets/ca6dc3cd-231a-4347-b0d6-9c7c1618f630" />
-* **Debian/Ubuntu (.deb) & RedHat/SUSE (.rpm):** Full system installers. These packages automatically handle placing `.desktop` shortcuts in your application launcher and assigning the correct system icons.
-* **AppImages (.AppImage):** The gold standard for Linux portability. A single, standalone file that runs on almost any distribution. Just download, allow execution (`chmod 775`), and double-click to run.
-
-### ✨ Desktop Integrations
-* **Dynamic OS Theming:** Sharp Windows 11 icons or macOS "Traffic Light" dots depending on your system. Live Switcher included.
-* **Native File Saving:** Overrides browser prompts entirely using Node.js `fs.writeFileSync`. Hit `Ctrl+S` to instantly overwrite the file on your drive.
-* **Multi-Method Loading:** Right-click context menus, Drag & Drop files, or use standard dialogs. A built-in Gatekeeper prevents binary files from crashing the editor.
-* **macOS Menu Bridge:** Maps the HTML menu 1:1 into the native Apple Menu Bar at the top of your screen.
-* **Dynamic Title Bar:** Updates to `<path> - Notepad++` and supports single-instance tab routing (double-clicking a file routes it to your open window).
-* **Splash Screen:** Masks Chromium initialization with a native-feeling loading overlay.
-
----
 
 ## ⚙️ How to Run & File Structure
 

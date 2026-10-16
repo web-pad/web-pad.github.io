@@ -3,39 +3,34 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Notepad++ WebApp</title>
-    <meta name="keywords" content="A fully functional clone of the classic Notepad++ editor as a WebApp.">
-    <meta name="author" content="Notepad++ Clone">
+    <title>Webepad++</title>
+    <meta name="keywords" content="Notepad++ for Web">
+    <meta name="author" content="Webpad++">
     <meta name="theme-color" content="#FFFFFF"> 
 	
-	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png"/>
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<meta name="apple-mobile-web-app-title" content="Notepad++"/>
-	<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="icon" type="image/svg+xml" href="webpad++.svg">
 	<link rel="manifest" href="site.webmanifest" />
 	
+    <meta name="apple-mobile-web-app-title" content="Webpad++"/>
+	
 	<meta property="og:type" content="website">
-    <meta property="og:url" content="https://rmellis.github.io/NotepadPlusPlus-WebClone/">
-    <meta property="og:title" content="Notepad++ WebApp">
-    <meta property="og:description" content="A fully functional clone of the classic Notepad++ editor as a WebApp.">
-    <meta property="og:image" content="https://rmellis.github.io/NotepadPlusPlus-WebClone/social-share.png">
+    <meta property="og:title" content="Webpad++">
+    <meta property="og:description" content="Notepad++ for Web">
+    <meta property="og:image" content="social-share.png">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://rmellis.github.io/NotepadPlusPlus-WebClone/">
-    <meta name="twitter:title" content="Notepad++ WebApp">
-    <meta name="twitter:description" content="A fully functional clone of the classic Notepad++ editor as a WebApp.">
-    <meta name="twitter:image" content="https://rmellis.github.io/NotepadPlusPlus-WebClone/social-share.png">
-	<link rel="canonical" href="https://rmellis.github.io/NotepadPlusPlus-WebClone/">
+    <meta name="twitter:url" content="https://web-pad.github.io">
+    <meta name="twitter:title" content="Webpad++">
+    <meta name="twitter:description" content="Notepad++ for Web">
+    <meta name="twitter:image" content="social-share.png">
+	
+    <link rel="canonical" href="https://web-pad.github.io">
 	
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script><link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script><link rel="stylesheet" href="./style.css">
 
   </head>
     
@@ -140,7 +135,7 @@
             <div class="menu-item" onclick="document.execCommand('copy')">
                 <span>Copy</span><span class="hotkey">Ctrl+C</span>
             </div>
-            <div class="menu-item" onclick="document.execCommand('paste')">
+            <div class="menu-item" onclick="pasteFromClipboard()">
                 <span>Paste</span><span class="hotkey">Ctrl+V</span>
             </div>
             <div class="menu-item" onclick="document.execCommand('delete')">
@@ -247,7 +242,7 @@
             <div class="menu-item" onclick="requireDesktop('OS Clipboard History')"><span>Clipboard History</span></div>
             <div class="divider"></div>
             <div class="menu-item has-submenu">
-                <span>Read Only in Notepad++</span>
+                <span>Read Only in Webpad++</span>
                 <div class="submenu">
                     <div class="menu-item" onclick="toggleReadOnly()"><span>Set Read-Only</span></div>
                 </div>
@@ -691,17 +686,17 @@
             <div class="menu-item" onclick="showCmdModal()"><span>Command Line Arguments...</span></div>
             <div class="divider"></div>
             <div class="menu-item" onclick="window.open('https://notepad-plus-plus.org/', '_blank')"><span>Notepad++ Home</span></div>
-            <div class="menu-item" onclick="window.open('https://github.com/notepad-plus-plus/notepad-plus-plus', '_blank')"><span>Notepad++ Project Page</span></div>
+            <div class="menu-item" onclick="window.open('https://github.com/web-plus-plus/notepad-plus-plus', '_blank')"><span>Notepad++ Project Page</span></div>
             <div class="menu-item" onclick="window.open('https://npp-user-manual.org/', '_blank')"><span>Notepad++ Online User Manual</span></div>
             <div class="menu-item" onclick="window.open('https://community.notepad-plus-plus.org/', '_blank')"><span>Notepad++ Community (Forum)</span></div>
             <div class="divider"></div>
-            <div class="menu-item" onclick="window.open('https://github.com/rmellis/NotepadPlusPlus-WebClone', '_blank')"><span>Notepad++ Web Clone GitHub</span></div>
+            <div class="menu-item" onclick="window.open('https://github.com/web-pad', '_blank')"><span>Webpad++ (Notepad++ for Web) </span></div>
             <div class="divider"></div>
-            <div class="menu-item" onclick="customAlert('You are already running the latest version.')"><span>Update Notepad++</span></div>
+            <div class="menu-item" onclick="customAlert('You are already running the latest version.')"><span>Update Webpad++</span></div>
             <div class="menu-item" onclick="requireDesktop('Network Proxy Settings')"><span>Set Updater Proxy...</span></div>
             <div class="divider"></div>
             <div class="menu-item" onclick="showDebugInfo()"><span>Debug Info...</span></div>
-            <div class="menu-item" onclick="showAboutModal()"><span>About Notepad++</span><span class="hotkey">F1</span></div>
+            <div class="menu-item" onclick="showAboutModal()"><span>About Webpad++</span><span class="hotkey">F1</span></div>
         </div>
     </div>
 </div>
@@ -771,7 +766,7 @@
 
 <div id="msg-box-modal" class="modal" style="min-width: 320px; z-index: 4000;">
     <div class="modal-header">
-        <span id="msg-box-title">Notepad++</span>
+        <span id="msg-box-title">Webpad++</span>
         <button onclick="closeMsgBox(null)">✖</button>
     </div>
     <div class="modal-body">
@@ -812,13 +807,13 @@
 
 <div id="about-modal" class="modal" style="min-width: 300px;">
     <div class="modal-header">
-        <span>About Notepad++ Clone</span>
+        <span>About Webpad++</span>
         <button onclick="closeAboutModal()">✖</button>
     </div>
     <div class="modal-body" style="text-align:center;">
-        <h2 style="color: #335e32; margin-bottom: 10px;">Notepad++ WebApp</h2>
+        <h2 style="color: #335e32; margin-bottom: 10px;">Webpad++ (Notepad++ for Web)</h2>
         <p style="margin-bottom: 5px;">Built with HTML, CSS, and vanilla JS.</p>
-        <p style="margin-bottom: 15px;">Version 2.0.2 (WebApp)</p>
+        <p style="margin-bottom: 15px;">Version 2.0.2</p>
         <button onclick="closeAboutModal()" style="padding: 4px 20px; cursor: default;">OK</button>
     </div>
 </div>
@@ -924,7 +919,7 @@
                 <tr><td>Playback Macro</td><td>Ctrl+Shift+P</td></tr>
                 <tr><td>Toggle RTL Text Direction</td><td>Ctrl+Alt+R</td></tr>
                 <tr><td>Toggle LTR Text Direction</td><td>Ctrl+Alt+L</td></tr>
-                <tr><td>About Notepad++</td><td>F1</td></tr>
+                <tr><td>About Webpadpad++</td><td>F1</td></tr>
             </tbody>
         </table>
     </div>
@@ -933,56 +928,6 @@
     </div>
 </div>
 
-<div id="cmd-modal" class="modal" style="width: 700px; max-width: 90vw;">
-    <div class="modal-header">
-        <span>Command Line Arguments</span>
-        <button onclick="closeCmdModal()">✖</button>
-    </div>
-    <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
-        <pre style="font-family: 'Courier New', Courier, monospace; font-size: 12px; white-space: pre-wrap; word-wrap: break-word; background: #fff; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">Usage:
-
-notepad++ [--help] [-multiInst] [-noPlugin] [-lLanguage] [-udl="My UDL Name"]
-[-LlangCode] [-nLineNumber] [-cColumnNumber] [-pPosition] [-xLeftPos] [-yTopPos]
-[-monitor] [-nosession] [-notabbar] [-systemtray] [-loadingTime] [-alwaysOnTop]
-[-ro] [-fullReadOnly] [-fullReadOnlySavingForbidden] [-openSession] [-r]
-[-qn="Easter egg name" | -qt="a text to display." | -qf="D:\my quote.txt"]
-[-qSpeed1|2|3] [-quickPrint] [-settingsDir="d:\your settings dir\"]
-[-openFoldersAsWorkspace]  [-titleAdd="additional title bar text"]
-[filePath]
-
---help: This help message
--multiInst: Launch another Notepad++ instance
--noPlugin: Launch Notepad++ without loading any plugin
--l: Open file or Ghost type with syntax highlighting of choice
--udl="My UDL Name": Open file by applying User Defined Language
--L: Apply indicated localization, langCode is browser language code
--n: Scroll to indicated line on filePath
--c: Scroll to indicated column on filePath
--p: Scroll to indicated position on filePath
--x: Move Notepad++ to indicated left side position on the screen
--y: Move Notepad++ to indicated top position on the screen
--monitor: Open file with file monitoring enabled
--nosession: Launch Notepad++ without previous session
--notabbar: Launch Notepad++ without tab bar
--ro: Make the filePath read-only
--fullReadOnly: Open all files read-only by default, toggling the R/O off and saving is allowed
--fullReadOnlySavingForbidden: Open all files read-only by default, toggling the R/O off and saving is disabled
--systemtray: Launch Notepad++ directly in system tray
--loadingTime: Display Notepad++ loading time
--alwaysOnTop: Make Notepad++ always on top
--openSession: Open a session. filePath must be a session file
--r: Open files recursively. This argument will be ignored if filePath contains no wildcard character
--qn="Easter egg name": Ghost type easter egg via its name
--qt="text to display.": Ghost type the given text
--qf="D:\my quote.txt": Ghost type a file content via the file path
--qSpeed: Ghost typing speed. Value from 1 to 3 for slow, fast and fastest
--quickPrint: Print the file given as argument then quit Notepad++
--settingsDir="d:\your settings dir\": Override the default settings dir
--openFoldersAsWorkspace: open filePath of folder(s) as workspace
--titleAdd="string": add string to Notepad++ title bar
-filePath: file or folder name to open (absolute or relative path name)</pre>
-    </div>
-</div>
     <script  src="./script.js"></script>
 
   </body>

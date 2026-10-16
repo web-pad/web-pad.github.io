@@ -31,7 +31,7 @@ function closeMsgBox(result = null) {
 
 window.customAlert = function(msg) {
     return new Promise(resolve => {
-        document.getElementById('msg-box-title').textContent = 'Notepad++ Web Clone';
+        document.getElementById('msg-box-title').textContent = 'Webpad++';
         document.getElementById('msg-box-text').textContent = msg;
         document.getElementById('msg-box-input-container').style.display = 'none';
         document.getElementById('msg-box-actions').innerHTML = `<button onclick="closeMsgBox(true)" style="padding: 4px 20px;">OK</button>`;
@@ -409,7 +409,7 @@ function setLanguage(lang) {
     let langDisplay = lang === 'none' ? 'Normal text file' : lang.toUpperCase() + ' source file';
     sbType.textContent = langDisplay;
     
-    document.title = `${currentTab.title} - Notepad++ Clone`;
+    document.title = `${currentTab.title} - Webpad++`;
 }
 
 // --- Encoding Management ---
@@ -422,7 +422,7 @@ function setEncoding(enc) {
     
     updateMenuCheckmarks('enc-check', enc);
     sbEncoding.textContent = enc;
-    document.title = `${currentTab.title} - Notepad++ Clone`;
+    document.title = `${currentTab.title} - Webpad++`;
 }
 
 function convertEncoding(enc) {
@@ -658,7 +658,7 @@ function renderTabs() {
     
     const activeTab = getActiveTab();
     if(activeTab) {
-        document.title = `${activeTab.isSaved ? '' : '*'}${activeTab.title} - Notepad++ Clone`;
+        document.title = `${activeTab.isSaved ? '' : '*'}${activeTab.title} - Webpad++`;
     }
 }
 
@@ -1092,7 +1092,7 @@ function showPluginsInfo() {
 }
 
 function showDebugInfo() {
-    customAlert("Notepad++ Web Clone Debug Info:\n\nUser Agent: " + navigator.userAgent + "\nPlatform: " + navigator.platform);
+    customAlert("Webpad++ Debug Info:\n\nUser Agent: " + navigator.userAgent + "\nPlatform: " + navigator.platform);
 }
 
 function showSummary() {
@@ -1260,7 +1260,7 @@ function insertDateTime() {
 function copyFullPath() {
     const tab = getActiveTab();
     if(tab) {
-        const path = "C:\\Notepad++_Workspace\\" + tab.title;
+        const path = "<workspace_path>" + tab.title;
         navigator.clipboard.writeText(path).then(() => {
             customAlert("File path copied to clipboard:\n" + path);
         }).catch(e => {
